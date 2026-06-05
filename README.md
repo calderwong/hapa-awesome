@@ -236,3 +236,13 @@ When in doubt, publish a pointer or manifest and keep the payload in the local v
 ## Name
 
 This is called `hapa-awesome` in the GitHub sense: a curated, opinionated, maintained entry point. The point is not to list random links. The point is to make the Hapa system legible enough that a new human or agent can enter through one door, choose the right node, follow the right protocol, and leave the system better documented than they found it.
+
+<!-- HAPA_NODE_ATLAS_DEMO:START -->
+## See It In Action
+
+<a href="https://calderwong.github.io/hapa-node-atlas/">
+  <img src="https://calderwong.github.io/hapa-node-atlas/assets/atalas-hero-loop-poster.jpg" alt="Hapa Node Atlas live demo" width="360">
+</a>
+
+[Open the Hapa Node Atlas demo](https://calderwong.github.io/hapa-node-atlas/)
+<!-- HAPA_NODE_ATLAS_DEMO:END -->
