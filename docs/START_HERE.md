@@ -20,9 +20,10 @@ Start with:
 
 1. [Hapa Dev Proto](https://github.com/calderwong/hapa-dev-proto-private) for the main local app lineage.
 2. [Hapa Space](https://github.com/calderwong/hapa-space) for the Unity Black Horizon fleet.
-3. [Hapa Chat App](https://github.com/calderwong/hapa-chat-app) for chat/workroom flows.
-4. [Hapa Wiki Viewer](https://github.com/calderwong/hapa-wiki-viewer) for browsing the wiki.
-5. [Hapa Quest Keeper](https://github.com/calderwong/hapa-quest-keeper) for board coverage and work overview.
+3. [Hapa Character Sheet](https://github.com/calderwong/hapa-character-sheet) for the private resume, skill codex, lineage dossier, and portfolio surface.
+4. [Hapa Chat App](https://github.com/calderwong/hapa-chat-app) for chat/workroom flows.
+5. [Hapa Wiki Viewer](https://github.com/calderwong/hapa-wiki-viewer) for browsing the wiki.
+6. [Hapa Quest Keeper](https://github.com/calderwong/hapa-quest-keeper) for board coverage and work overview.
 
 Protocol:
 

@@ -40,6 +40,7 @@ Core entry points:
 - [Hapa Worldbuilding Wiki](https://github.com/calderwong/hapa-worldbuilding-wiki) - canon, node notes, systems, names, cards, and vault boundary.
 - [Overwatch](https://github.com/calderwong/overwatch) - operations spine: inventory, source index, task inbox, runbooks, and protocols.
 - [Hapa Space](https://github.com/calderwong/hapa-space) - Unity Black Horizon fleet surface where nodes become ships and runtime panels.
+- [Hapa Character Sheet](https://github.com/calderwong/hapa-character-sheet) - private local-first resume, skill codex, lineage dossier, and desktop/API character-sheet app.
 - [Hapa Dev Proto](https://github.com/calderwong/hapa-dev-proto-private) - main local-first Hapa app lineage.
 
 ## What Hapa is
@@ -69,7 +70,7 @@ flowchart TB
   overwatch --> boards["Board nodes\nQuest Keeper, Overwatch Kanban, Open Tasks"]
   overwatch --> telemetry["Telemetry and registry nodes\nTelemetry, Agent Registry, Keys, Crypto"]
 
-  hapa --> apps["Primary app surfaces\nDev Proto, Chat, Wiki Viewer, Living Comic"]
+  hapa --> apps["Primary app surfaces\nDev Proto, Character Sheet, Chat, Wiki Viewer, Living Comic"]
   apps --> media["Creative and model nodes\nMLX Station, LLaDA, MTPLX, Drama, LiTo, Avatar, Songs, Cymatica"]
   apps --> space["Hapa Space\nBlack Horizon fleet"]
 
@@ -114,6 +115,7 @@ See [docs/PROTOCOLS.md](docs/PROTOCOLS.md) for the practical version of each pro
 | --- | --- | --- |
 | [Hapa Dev Proto](https://github.com/calderwong/hapa-dev-proto-private) | Main local-first Hapa app lineage. | You need cards, local app UI, P2P experiments, media workflows, or app integration. |
 | [Hapa Space](https://github.com/calderwong/hapa-space) | Unity Black Horizon fleet MVP. | You need to see nodes as ships, runtime panels, board state, or operator flow in 3D. |
+| [Hapa Character Sheet](https://github.com/calderwong/hapa-character-sheet) | Private professional character sheet, resume, skill codex, lineage dossier, and desktop/API app. | You need a source-backed portfolio view over Hapa Second Brain skills, nodes, media, timeline, and board state. |
 | [Hapa Chat App](https://github.com/calderwong/hapa-chat-app) | Local chat/workroom app. | You need rooms, participants, agents, assets, worker jobs, or conversation inspection. |
 | [Hapa Wiki Viewer](https://github.com/calderwong/hapa-wiki-viewer) | Browse the wiki as an app. | You need a local UI for the Markdown wiki instead of raw files. |
 | [Hapa Living Comic](https://github.com/calderwong/hapa-living-comic) | Story panel and narrative surface. | You need media-backed narrative panels, story presentation, or comic-style review. |

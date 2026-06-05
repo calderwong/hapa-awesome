@@ -2,9 +2,9 @@
   "schemaVersion": "hapa.awesome.nodes.v0.1",
   "generatedFor": "hapa-awesome",
   "publicationStatus": {
-    "publishedRepos": 40,
-    "readmesWithRelatedNodeSections": 40,
-    "explainedRelatedNodeLinks": 334,
+    "publishedRepos": 41,
+    "readmesWithRelatedNodeSections": 41,
+    "explainedRelatedNodeLinks": 337,
     "brokenReadmeLinks": 0
   },
   "nodes": [
@@ -16,6 +16,7 @@
     {"name":"hapa-telemetry-node","repo":"calderwong/hapa-telemetry-node","url":"https://github.com/calderwong/hapa-telemetry-node","family":"operations","role":"Discovery, health, launcher, and capability status surface."},
     {"name":"hapa-dev-proto","repo":"calderwong/hapa-dev-proto-private","url":"https://github.com/calderwong/hapa-dev-proto-private","family":"primary-app","role":"Main local-first Hapa AG app lineage."},
     {"name":"hapa-space","repo":"calderwong/hapa-space","url":"https://github.com/calderwong/hapa-space","family":"primary-app","role":"Unity Black Horizon fleet MVP."},
+    {"name":"hapa-character-sheet","repo":"calderwong/hapa-character-sheet","url":"https://github.com/calderwong/hapa-character-sheet","family":"primary-app","role":"Local-first professional character sheet, resume, skill codex, lineage dossier, and desktop/API app over Hapa Second Brain."},
     {"name":"hapa-chat-app","repo":"calderwong/hapa-chat-app","url":"https://github.com/calderwong/hapa-chat-app","family":"primary-app","role":"Local chat and workroom app."},
     {"name":"hapa-wiki-viewer","repo":"calderwong/hapa-wiki-viewer","url":"https://github.com/calderwong/hapa-wiki-viewer","family":"primary-app","role":"Local app for browsing the Markdown wiki."},
     {"name":"hapa-living-comic","repo":"calderwong/hapa-living-comic","url":"https://github.com/calderwong/hapa-living-comic","family":"primary-app","role":"Story panel and media-backed narrative surface."},
