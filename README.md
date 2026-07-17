@@ -4,7 +4,7 @@ Hapa is a local-first AI, worldbuilding, media, memory, and agent ecosystem. It 
 
 This repository is the intended first GitHub entry point for Hapa. Start here when you want to understand the full scope of the nodes and systems, the protocol that holds them together, how the nodes relate, and how to use them safely.
 
-Status: this guide links to the current private Hapa GitHub publication set. The last source audit verified 40 published README files, 334 explained related-node links, and 0 broken GitHub README links.
+Status: public-directory audit completed 2026-07-17. The machine-readable registry contains 40 public, directly reachable repositories and no dead repository links. Local-only and private Hapa systems may still be named for context, but they are not presented as public GitHub destinations.
 
 ## Hapa Ecosystem Context
 
@@ -30,18 +30,24 @@ If you are new, read in this order:
 
 1. This README for the whole-system map.
 2. [docs/START_HERE.md](docs/START_HERE.md) for role-based onboarding paths.
-3. [docs/NODES.md](docs/NODES.md) for the complete node catalog.
-4. [docs/PROTOCOLS.md](docs/PROTOCOLS.md) for the operating protocols.
-5. The README of the node you actually want to run or change.
+3. [data/nodes.json](data/nodes.json) for the canonical machine-readable public repository registry.
+4. [docs/NODES.md](docs/NODES.md) for the human-readable public catalog.
+5. [docs/PROTOCOLS.md](docs/PROTOCOLS.md) for the operating protocols.
+6. The README of the node you actually want to run or change.
 
 Core entry points:
 
 - [Hapa](https://github.com/calderwong/hapa) - front-door app/repo for the Hapa workspace and node map.
+- [Hapa Awesome](https://github.com/calderwong/hapa-awesome) - canonical public repository directory and first-entry guide.
 - [Hapa Worldbuilding Wiki](https://github.com/calderwong/hapa-worldbuilding-wiki) - canon, node notes, systems, names, cards, and vault boundary.
 - [Overwatch](https://github.com/calderwong/overwatch) - operations spine: inventory, source index, task inbox, runbooks, and protocols.
+- [Hapa Node Atlas](https://github.com/calderwong/hapa-node-atlas) - public visual atlas and embedded app-surface brochure.
+- [Hapa Graphify](https://github.com/calderwong/hapa-graphify) - explorable graph of nodes, sources, protocols, boards, and memory systems.
+- [Hapa Scroll Site](https://github.com/calderwong/hapa-scroll-site) - cinematic public ecosystem tour with explorable Cards.
 - [Hapa Space](https://github.com/calderwong/hapa-space) - Unity Black Horizon fleet surface where nodes become ships and runtime panels.
 - [Hapa Character Sheet](https://github.com/calderwong/hapa-character-sheet) - private local-first resume, skill codex, lineage dossier, and desktop/API character-sheet app.
-- [Hapa Dev Proto](https://github.com/calderwong/hapa-dev-proto-private) - main local-first Hapa app lineage.
+- [Hapa Dev Proto](https://github.com/calderwong/hapa-dev-proto) - main local-first Hapa app lineage.
+- [.hapaCatalog](https://github.com/calderwong/hapa-catalog-node) - Card Multiverse, Storefront, Operator Shell, retail/distribution, and governed analytics node.
 
 ## What Hapa is
 
@@ -103,17 +109,23 @@ See [docs/PROTOCOLS.md](docs/PROTOCOLS.md) for the practical version of each pro
 | Node | Role | Use it when |
 | --- | --- | --- |
 | [hapa](https://github.com/calderwong/hapa) | Front-door app and high-level repo map. | You need the main orientation, node map, feature parity, or Node Space context. |
+| [Hapa Awesome](https://github.com/calderwong/hapa-awesome) | Canonical public repository directory. | You need a complete, machine-readable route to every currently public Hapa repository. |
 | [Hapa Worldbuilding Wiki](https://github.com/calderwong/hapa-worldbuilding-wiki) | Canon and node knowledge graph. | You need lore, systems, names, cards, node notes, or publication boundary docs. |
 | [Overwatch](https://github.com/calderwong/overwatch) | Operations spine and source index. | You need task protocols, source inventory, runbooks, or cross-node evidence. |
 | [Hapa Quest Keeper](https://github.com/calderwong/hapa-quest-keeper) | Consolidated quest board. | You need a live overview of Hapa app/node boards and coverage status. |
 | [Hapa Overwatch Kanban](https://github.com/calderwong/hapa-overwatch-kanban) | Reusable per-project board engine. | You need append-only task/event boards for a node or project. |
 | [Hapa Telemetry Node](https://github.com/calderwong/hapa-telemetry-node) | Node discovery and health surface. | You need capability discovery, service status, launchers, or runtime relationship maps. |
+| [Hapa Node Atlas](https://github.com/calderwong/hapa-node-atlas) | Public visual atlas. | You want to browse embedded demos and see the ecosystem before choosing a source repo. |
+| [Hapa Graphify](https://github.com/calderwong/hapa-graphify) | Ecosystem graph compiler and explorer. | You need paths across repositories, protocols, boards, wiki records, and memory systems. |
+| [Hapa Scroll Site](https://github.com/calderwong/hapa-scroll-site) | Cinematic scroll-driven brochure. | You want a narrative public tour through Hapa capabilities and Cards. |
 
 ### 2. Primary app and user-facing surfaces
 
 | Node | Role | Use it when |
 | --- | --- | --- |
-| [Hapa Dev Proto](https://github.com/calderwong/hapa-dev-proto-private) | Main local-first Hapa app lineage. | You need cards, local app UI, P2P experiments, media workflows, or app integration. |
+| [Hapa Dev Proto](https://github.com/calderwong/hapa-dev-proto) | Main local-first Hapa app lineage. | You need cards, local app UI, P2P experiments, media workflows, or app integration. |
+| [.hapaCatalog](https://github.com/calderwong/hapa-catalog-node) | Agent-native retail and distribution operating node. | You need the Card Multiverse, Storefront, Operator Shells, governed analytics, or commerce projections. |
+| [CardAppPrototype](https://github.com/calderwong/CardAppPrototype) | Reference card application and Hapa Avatar Bank prototype. | You need a compact historical card-app implementation and workflow reference. |
 | [Hapa Space](https://github.com/calderwong/hapa-space) | Unity Black Horizon fleet MVP. | You need to see nodes as ships, runtime panels, board state, or operator flow in 3D. |
 | [Hapa Character Sheet](https://github.com/calderwong/hapa-character-sheet) | Private professional character sheet, resume, skill codex, lineage dossier, and desktop/API app. | You need a source-backed portfolio view over Hapa Second Brain skills, nodes, media, timeline, and board state. |
 | [Hapa Chat App](https://github.com/calderwong/hapa-chat-app) | Local chat/workroom app. | You need rooms, participants, agents, assets, worker jobs, or conversation inspection. |
@@ -126,8 +138,6 @@ See [docs/PROTOCOLS.md](docs/PROTOCOLS.md) for the practical version of each pro
 | Node | Role | Use it when |
 | --- | --- | --- |
 | [Hapa Second Brain](https://github.com/calderwong/hapa-second-brain) | Personal knowledge database and UI. | You need YouTube/reading/watch history, topic groups, claims, taste profiles, or agent context. |
-| [Open Notebook](https://github.com/calderwong/open-notebook) | Local research/notebook node. | You need NotebookLM-like source organization, notes, chat, transformations, and podcasts. |
-| [MassiveHistory Chunks](https://github.com/calderwong/massivehistory-chunks) | Source-safe pointer package for MassiveHistory chunks. | You need references to the private chunked source archive without publishing payloads. |
 | [Hapa Lore Node](https://github.com/calderwong/hapa-lore-node) | Chronicle and canon search node. | You need daily progress, lore, wisdom, and searchable operator history. |
 | [Hapa Lance Node](https://github.com/calderwong/hapa-lance-node) | Projection and indexing layer. | You need chunks, embeddings, cards, wiki records, or multimodal index/projection work. |
 | [Hapa Wiki Growth Agent](https://github.com/calderwong/hapa-wiki-growth-agent) | Bounded wiki expansion workflow. | You need draft articles, lore dispatches, card drafts, media hooks, or ledgers generated from sources. |
@@ -144,19 +154,15 @@ See [docs/PROTOCOLS.md](docs/PROTOCOLS.md) for the practical version of each pro
 | [Hapa Avatar Node](https://github.com/calderwong/hapa-avatar-node) | Avatar/phamiliar generation node. | You need avatar lineage, profile metadata, or phamiliar variant generation. |
 | [Hapa Song Registry](https://github.com/calderwong/hapa-song-registry) | Music and song metadata registry. | You need songs, lyrics, timing, Suno/imported audio, or music memory metadata. |
 | [Hapa LuminaStem Station](https://github.com/calderwong/hapa-luminastem-station) | 3D/audio stem visualization prototype. | You need stem visualization, spatial audio experiments, or LuminaStem media surfaces. |
-| [Cymatica](https://github.com/calderwong/cymatica) | SwiftPM/RealityKit spatial media experiments. | You need spatial audio, stems-to-3D, or RealityKit presentation experiments. |
 
 ### 5. Agents, trust, cards, and protocol mechanics
 
 | Node | Role | Use it when |
 | --- | --- | --- |
-| [Hermes](https://github.com/calderwong/hermes) | Desktop surface for Hermes Agent profiles. | You need human-facing agent installation, profiles, sessions, skills, memory, or provider setup. |
 | [Hapa Agent Registry Node](https://github.com/calderwong/hapa-agent-registry-node) | Local agent registry and avatar job broker. | You need agent identity, runtime state, event log projection, or avatar job coordination. |
 | [Hapa Keys Node](https://github.com/calderwong/hapa-keys-node) | Local key vault. | You need local provider/node secret management patterns and auth boundaries. |
 | [Hapa Crypto Node](https://github.com/calderwong/hapa-crypto-node) | Trust, signatures, and identity primitives. | You need cryptographic proof, signature, identity, or trust-layer experiments. |
-| [Hapa Anvil Node](https://github.com/calderwong/hapa-anvil-node) | Card forge and evaluation node. | You need to turn raw card ideas into standardized, evaluated, usable artifacts. |
 | [Hapa Janus World Node](https://github.com/calderwong/hapa-janus-world-node) | Local world truth kernel. | You need append-only world events, derived snapshots, or Janus simulation state. |
-| [Consul Node Proto](https://github.com/calderwong/consul-node-proto) | Governance/provenance proof harness. | You need Warden, Heap, River, evidence hashing, or environment-up verification prototypes. |
 | [Hapa Cultivation Suite](https://github.com/calderwong/hapa-cultivation-suite) | Pulse/cultivation protocol tooling. | You need protocol tooling around cultivation, pulse, and growth workflows. |
 | [Hapa Spec Scaffold](https://github.com/calderwong/hapa-spec-scaffold) | Compact protocol/spec/test scaffold. | You need a small starting point for Hapa protocol contracts and tests. |
 
@@ -165,9 +171,8 @@ See [docs/PROTOCOLS.md](docs/PROTOCOLS.md) for the practical version of each pro
 | Node | Role | Use it when |
 | --- | --- | --- |
 | [Hapa Open Tasks Node](https://github.com/calderwong/hapa-open-tasks-node) | Operational Kanban/task node. | You need task state, Kanban flows, or local project/task service behavior. |
-| [Hapa OG](https://github.com/calderwong/hapa-og) | Older integrated Hapa app snapshot. | You need archaeology, reference behavior, prior UX, or older local AI/card patterns. |
-| [Huemon Trainer and Thor Production Run](https://github.com/calderwong/2026-05-21-huemon-trainer-thor) | Production-run record. | You need preproduction material, render blockers, or continuation notes for that video run. |
-| [Capsule](https://github.com/calderwong/capsule) | Help Fund Hapa capsule artifact. | You need funding/simulator capsule UI reference material. |
+| [Hapa Proto Visualizer](https://github.com/calderwong/hapa-proto0.00.00.7-visualizer) | Historical visualizer experiment. | You need public archaeology for an early Hapa visualization path. |
+| [Hapa Scratchpad](https://github.com/calderwong/hapa-scratchpad) | Exploratory public source package. | You are intentionally looking for rough experiments beyond the maintained core. |
 
 For a fuller per-node catalog, see [docs/NODES.md](docs/NODES.md).
 
@@ -219,11 +224,18 @@ When in doubt, publish a pointer or manifest and keep the payload in the local v
 
 ## Current verified state
 
-- Published Hapa README files checked: 40.
-- README files with related-node sections: 40.
-- Explained related-node links: 334.
-- Broken GitHub/internal README links: 0.
-- Non-GitHub external URLs checked in published READMEs: 28, all reachable at last audit.
+- Public repository registry audit: 2026-07-17.
+- Public Hapa-related repositories registered: 40.
+- Registry repository URLs reachable: 40.
+- Broken repository URLs in the registry: 0.
+- Ten obsolete or non-public GitHub destinations were removed from the public registry; the reachable `hapa-dev-proto` repository replaced the obsolete `hapa-dev-proto-private` route.
+- Nine previously unregistered public surfaces were added, including Hapa Awesome, .hapaCatalog, Graphify, Node Atlas, Scroll Site, CardAppPrototype, and the explicitly labeled experiment/archive repositories.
+
+Re-run the deterministic audit whenever a public Hapa repository is added, removed, renamed, or made private:
+
+```bash
+python3 scripts/audit_public_registry.py
+```
 
 ## Repository contents
 
@@ -232,6 +244,7 @@ When in doubt, publish a pointer or manifest and keep the payload in the local v
 - [docs/NODES.md](docs/NODES.md) - complete node catalog with links and explanations.
 - [docs/PROTOCOLS.md](docs/PROTOCOLS.md) - practical Hapa operating protocols.
 - [data/nodes.json](data/nodes.json) - machine-readable node index for future agents/tools.
+- [scripts/audit_public_registry.py](scripts/audit_public_registry.py) - checks registry/API completeness, reachability, README discoverability, and human-catalog coverage.
 
 ## Name
 

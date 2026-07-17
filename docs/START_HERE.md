@@ -18,7 +18,7 @@ Goal: understand that Hapa is a local-first node ecosystem, not one monolithic a
 
 Start with:
 
-1. [Hapa Dev Proto](https://github.com/calderwong/hapa-dev-proto-private) for the main local app lineage.
+1. [Hapa Dev Proto](https://github.com/calderwong/hapa-dev-proto) for the main local app lineage.
 2. [Hapa Space](https://github.com/calderwong/hapa-space) for the Unity Black Horizon fleet.
 3. [Hapa Character Sheet](https://github.com/calderwong/hapa-character-sheet) for the private resume, skill codex, lineage dossier, and portfolio surface.
 4. [Hapa Chat App](https://github.com/calderwong/hapa-chat-app) for chat/workroom flows.
@@ -40,8 +40,7 @@ Start with:
 1. [Hapa Worldbuilding Wiki](https://github.com/calderwong/hapa-worldbuilding-wiki)
 2. [Hapa Lore Node](https://github.com/calderwong/hapa-lore-node)
 3. [Hapa Second Brain](https://github.com/calderwong/hapa-second-brain)
-4. [MassiveHistory Chunks](https://github.com/calderwong/massivehistory-chunks)
-5. [Open Notebook](https://github.com/calderwong/open-notebook)
+4. The local-only MassiveHistory and Open Notebook sources through the front-door or wiki manifests when you have an authorized local checkout.
 
 Protocol:
 
@@ -57,7 +56,7 @@ Start with:
 1. [Overwatch](https://github.com/calderwong/overwatch) for current operational state.
 2. [Hapa Overwatch Kanban](https://github.com/calderwong/hapa-overwatch-kanban) for per-project boards.
 3. [Hapa Spec Scaffold](https://github.com/calderwong/hapa-spec-scaffold) for compact contracts.
-4. [Consul Node Proto](https://github.com/calderwong/consul-node-proto) for proof/evidence harness patterns.
+4. The local-only Consul Node Proto through the front-door registry when you need proof/evidence harness patterns.
 5. The owning node README.
 
 Protocol:
@@ -79,7 +78,7 @@ Start with:
 5. [Hapa LiTo](https://github.com/calderwong/hapa-lito)
 6. [Hapa Avatar Node](https://github.com/calderwong/hapa-avatar-node)
 7. [Hapa Song Registry](https://github.com/calderwong/hapa-song-registry)
-8. [Cymatica](https://github.com/calderwong/cymatica)
+8. The local-only Cymatica source through the front-door registry when available.
 
 Protocol:
 
