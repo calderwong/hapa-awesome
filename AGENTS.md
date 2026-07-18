@@ -17,18 +17,21 @@
 ## Source-of-truth files
 
 - `data/nodes.json` — canonical machine-readable public registry.
+- `data/repository-scope.json` — account-wide classification ledger for public Hapa repos, supporting inputs, and public account repos not asserted as Hapa.
 - `docs/NODES.md` — human-readable public catalog.
+- `docs/REPOSITORY_SCOPE.md` — human-readable inclusion and exclusion boundary.
 - `README.md` — ecosystem orientation and family-level routes.
 - `scripts/audit_public_registry.py` — deterministic public-API, reachability, and catalog-coverage audit.
 
 ## Editing and verification
 
-- Add or remove public repositories in all three discovery surfaces: `data/nodes.json`, `docs/NODES.md`, and `README.md` where family orientation changes.
+- Add or remove public Hapa repositories in `data/nodes.json`, `docs/NODES.md`, and `README.md` where family orientation changes. Classify every other public account repository in `data/repository-scope.json` and explain the boundary in `docs/REPOSITORY_SCOPE.md`.
 - Keep repository names, URLs, roles, statuses, upstream attribution, and ownership boundaries aligned with the owning README.
 - Do not list private/local-only locations as public GitHub destinations.
 - Validate JSON, inspect the diff, and run:
 
 ```bash
 jq empty data/nodes.json
+jq empty data/repository-scope.json
 python3 scripts/audit_public_registry.py
 ```

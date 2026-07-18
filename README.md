@@ -4,7 +4,7 @@ Hapa is a local-first AI, worldbuilding, media, memory, and agent ecosystem. It 
 
 This repository is the intended first GitHub entry point for Hapa. Start here when you want to understand the full scope of the nodes and systems, the protocol that holds them together, how the nodes relate, and how to use them safely.
 
-Status: public-directory audit completed 2026-07-18. The machine-readable registry contains 50 public, directly reachable repositories and no dead repository links. Local-only and private Hapa systems may still be named for context, but they are not presented as public GitHub destinations.
+Status: public-directory audit completed 2026-07-18. The machine-readable registry contains 50 public, directly reachable Hapa repositories and no dead repository links. The companion [repository-scope ledger](data/repository-scope.json) accounts for all 61 public repositories on the `calderwong` account: 50 Hapa repositories, 2 supporting WikiDict forks pinned by Hapa Language, and 9 other public account repositories that are not currently asserted to be Hapa nodes. Local-only and private Hapa systems may still be named for context, but they are not presented as public GitHub destinations.
 
 ## Current stage and artist-kit model
 
@@ -40,8 +40,9 @@ If you are new, read in this order:
 2. [docs/START_HERE.md](docs/START_HERE.md) for role-based onboarding paths.
 3. [data/nodes.json](data/nodes.json) for the canonical machine-readable public repository registry.
 4. [docs/NODES.md](docs/NODES.md) for the human-readable public catalog.
-5. [docs/PROTOCOLS.md](docs/PROTOCOLS.md) for the operating protocols.
-6. The README of the node you actually want to run or change.
+5. [docs/REPOSITORY_SCOPE.md](docs/REPOSITORY_SCOPE.md) for the account-wide inclusion, support, and exclusion boundary.
+6. [docs/PROTOCOLS.md](docs/PROTOCOLS.md) for the operating protocols.
+7. The README of the node you actually want to run or change.
 
 Core entry points:
 
@@ -49,9 +50,9 @@ Core entry points:
 - [Hapa Awesome](https://github.com/calderwong/hapa-awesome) - canonical public repository directory and first-entry guide.
 - [Hapa Worldbuilding Wiki](https://github.com/calderwong/hapa-worldbuilding-wiki) - canon, node notes, systems, names, cards, and vault boundary.
 - [Overwatch](https://github.com/calderwong/overwatch) - operations spine: inventory, source index, task inbox, runbooks, and protocols.
-- [Hapa Node Atlas](https://github.com/calderwong/hapa-node-atlas) - public visual atlas and embedded app-surface brochure.
+- [Hapa Node Atlas](https://calderwong.github.io/hapa-node-atlas/) - live public visual atlas and embedded app-surface brochure ([source](https://github.com/calderwong/hapa-node-atlas)).
 - [Hapa Graphify](https://github.com/calderwong/hapa-graphify) - explorable graph of nodes, sources, protocols, boards, and memory systems.
-- [Hapa Scroll Site](https://github.com/calderwong/hapa-scroll-site) - cinematic public ecosystem tour with explorable Cards.
+- [Hapa Scroll Site](https://calderwong.github.io/hapa-scroll-site/) - live cinematic ecosystem tour with explorable Cards ([source](https://github.com/calderwong/hapa-scroll-site)).
 - [Hapa Space](https://github.com/calderwong/hapa-space) - Unity Black Horizon fleet surface where nodes become ships and runtime panels.
 - [Hapa Character Sheet](https://github.com/calderwong/hapa-character-sheet) - private local-first resume, skill codex, lineage dossier, and desktop/API character-sheet app.
 - [Hapa Dev Proto](https://github.com/calderwong/hapa-dev-proto) - main local-first Hapa app lineage.
