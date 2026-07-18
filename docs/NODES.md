@@ -1,6 +1,6 @@
 # Hapa Node Catalog
 
-This catalog lists the public Hapa GitHub repository set verified on 2026-07-17. Every linked repository returned a public HTTP 200 response during the audit. The canonical machine-readable form is [`data/nodes.json`](../data/nodes.json).
+This catalog lists the public Hapa GitHub repository set verified on 2026-07-18. Every linked repository returned a public HTTP 200 response during the audit. The canonical machine-readable form is [`data/nodes.json`](../data/nodes.json). Treat every entry as First Pass / Prototype Stage unless its owning README declares a narrower, evidence-backed state; public visibility is discovery, not a stability, partnership, endorsement, or license claim.
 
 ## Front door, canon, and operations
 
@@ -30,6 +30,11 @@ This catalog lists the public Hapa GitHub repository set verified on 2026-07-17.
 | Hapa Wiki Viewer | [calderwong/hapa-wiki-viewer](https://github.com/calderwong/hapa-wiki-viewer) | Electron/local app for browsing the Markdown wiki. | Canon boundary, local-first runtime. |
 | Hapa Living Comic | [calderwong/hapa-living-comic](https://github.com/calderwong/hapa-living-comic) | Native living-comic viewer/editor for story panels and media-backed narrative presentation. | Media custody, canon promotion. |
 | Hapa Spaceship Desktop Hijack | [calderwong/hapa-spaceship-desktop-hijack](https://github.com/calderwong/hapa-spaceship-desktop-hijack) | Janus/spaceship desktop surface prototype. | Local-first runtime, world-state protocol. |
+| Hapa Wisdom Studio | [calderwong/hapa-wisdom-studio](https://github.com/calderwong/hapa-wisdom-studio) | Working MVP for Card-guided writing, source-labeled story evidence, and reversible revision; Overwind publication remains planned. | Source custody, Card Experience, bounded inference. |
+| Hapa Avatar Builder | [calderwong/hapa-avatar-builder](https://github.com/calderwong/hapa-avatar-builder) | Canonical local checkout for Avatar Card, Tarot Library/Draw, and media embodiment; not a stable release. | Media custody, creator attribution, Card ownership. |
+| Hapa Roomlet | [calderwong/hapa-roomlet](https://github.com/calderwong/hapa-roomlet) | Working local prototype participant client for Avatar Builder Tarot rooms; distinct-network and signed-release proof remain pending. | Local-first runtime, invite authority, participant custody. |
+| Hapa Subscriber App | [calderwong/hapa-subscriber-app](https://github.com/calderwong/hapa-subscriber-app) | First-pass static subscriber-experience UI sketch; no service, persistence, Card connection, contract, or commerce authority. | Prototype truth, commerce boundary. |
+| Hapa Language | [calderwong/hapa-language](https://github.com/calderwong/hapa-language) | Verified Prototype 0.1 local-first multilingual Meaning Cards world across UI/API/CLI; ten bundled Cards remain candidate/inference and are not accepted for teaching. | Pedagogical truth, provenance, private learner custody. |
 
 ## Memory, source, and retrieval
 
@@ -39,6 +44,7 @@ This catalog lists the public Hapa GitHub repository set verified on 2026-07-17.
 | Hapa Lore Node | [calderwong/hapa-lore-node](https://github.com/calderwong/hapa-lore-node) | Chronicle/canon search for daily progress, lore, wisdom, and operator history. | Canon promotion, local-first runtime. |
 | Hapa Lance Node | [calderwong/hapa-lance-node](https://github.com/calderwong/hapa-lance-node) | Projection/index layer for cards, wiki chunks, embeddings, and multimodal records. | Source custody, local-first runtime. |
 | Hapa Wiki Growth Agent | [calderwong/hapa-wiki-growth-agent](https://github.com/calderwong/hapa-wiki-growth-agent) | Bounded wiki expansion passes, draft articles, lore dispatches, card drafts, media hooks, and ledgers. | Canon promotion, agent operating protocol. |
+| Hapa Second Brain Node | [calderwong/hapa-second-brain-node](https://github.com/calderwong/hapa-second-brain-node) | Active local/private memory, retrieval, turn mining, provenance, and capability discovery source package; private corpus excluded. | Source custody, vault boundary, attribution. |
 
 ## AI, models, media, and creative generation
 
@@ -52,6 +58,7 @@ This catalog lists the public Hapa GitHub repository set verified on 2026-07-17.
 | Hapa Avatar Node | [calderwong/hapa-avatar-node](https://github.com/calderwong/hapa-avatar-node) | Avatar/phamiliar generation and lineage metadata. | Media custody, canon promotion. |
 | Hapa Song Registry | [calderwong/hapa-song-registry](https://github.com/calderwong/hapa-song-registry) | Songs, Suno/imported audio, lyrics, timing analysis, and music metadata. | Media custody, source custody. |
 | Hapa LuminaStem Station | [calderwong/hapa-luminastem-station](https://github.com/calderwong/hapa-luminastem-station) | LuminaStem, 3D/audio stem visualization, and music/media surfaces. | Media custody, local-first runtime. |
+| Hapa Trellis | [calderwong/hapa-trellis](https://github.com/calderwong/hapa-trellis) | Phase 0/1 Hapa-owned queue, provenance, Asset Card, API/CLI/UI, and adapter layer around separately owned Trellis runtimes; stub parity is not quality proof. | Upstream attribution, media custody, adapter boundary. |
 
 ## Agents, trust, cards, and protocol mechanics
 
@@ -63,6 +70,9 @@ This catalog lists the public Hapa GitHub repository set verified on 2026-07-17.
 | Hapa Janus World Node | [calderwong/hapa-janus-world-node](https://github.com/calderwong/hapa-janus-world-node) | World-state truth kernel, append-only events, and derived snapshots. | World-state protocol, local-first runtime. |
 | Hapa Cultivation Suite | [calderwong/hapa-cultivation-suite](https://github.com/calderwong/hapa-cultivation-suite) | Pulse/cultivation protocol tooling monorepo. | Protocol tooling, board evidence. |
 | Hapa Spec Scaffold | [calderwong/hapa-spec-scaffold](https://github.com/calderwong/hapa-spec-scaffold) | Compact protocol/spec/test scaffold. | Spec protocol, publication protocol. |
+| Hapa Overcard | [calderwong/hapa-overcard](https://github.com/calderwong/hapa-overcard) | `0.1.1` private pre-release shared Hand/Deck/Placement/Formation/attachment/responsibility capability; consumers retain record and permission custody. | Card schema, custody, responsibility boundary. |
+| Hapa Overwind | [calderwong/hapa-overwind-node](https://github.com/calderwong/hapa-overwind-node) | Released Universal Card Plane v1 subscriber history/lineage and rebuildable projections; other Overwind surfaces remain bounded. | Append-only history, acknowledgement, projection boundary. |
+| Hapa Red Team | [calderwong/hapa-red-team](https://github.com/calderwong/hapa-red-team) | Lovable local MVP for authorized defensive observation, evidence, Findings, and repair memory; no arbitrary remote attack execution. | Explicit authorization, evidence custody, defensive boundary. |
 
 ## Tasks, archives, production records, and historical references
 

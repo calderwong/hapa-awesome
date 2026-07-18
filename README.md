@@ -4,7 +4,15 @@ Hapa is a local-first AI, worldbuilding, media, memory, and agent ecosystem. It 
 
 This repository is the intended first GitHub entry point for Hapa. Start here when you want to understand the full scope of the nodes and systems, the protocol that holds them together, how the nodes relate, and how to use them safely.
 
-Status: public-directory audit completed 2026-07-17. The machine-readable registry contains 40 public, directly reachable repositories and no dead repository links. Local-only and private Hapa systems may still be named for context, but they are not presented as public GitHub destinations.
+Status: public-directory audit completed 2026-07-18. The machine-readable registry contains 50 public, directly reachable repositories and no dead repository links. Local-only and private Hapa systems may still be named for context, but they are not presented as public GitHub destinations.
+
+## Current stage and artist-kit model
+
+Treat Hapa as **First Pass / Prototype Stage** unless an owning repository names a narrower, evidence-backed state. Public visibility and a passing check do not create an ecosystem-wide promise of stability, compatibility, uptime, production support, fitness, partnership, or license. “Core” means important to current Hapa operation; it does not mean production-ready.
+
+Hapa is an artist kit for starting from accumulated work instead of a blank canvas. Apps and nodes are work surfaces and prepared paints; Cards and Decks are reusable swatches, recipes, constraints, and remembered techniques; agents are paintbrushes that apply and combine the kit; protocols preserve custody, attribution, evidence, and reversibility. Use the nearest app, Card, agent pattern, or protocol as a **jump-off point**, check its label and authority, adapt it to the new problem, verify it, and write useful evidence back.
+
+There is an **open invite to for-profit and nonprofit teams and organizations** to suggest an attributable presence, connector, public-interest pilot, or future decentralized-commerce experiment. It is an invitation to explore, not a promise of acceptance, integration, partnership, decentralization, funding, endorsement, or commercial outcome. Start with the participation guidance and proposal template in the [Hapa front door](https://github.com/calderwong/hapa/blob/main/docs/ECOSYSTEM_STAGE_AND_PARTICIPATION.md).
 
 ## Hapa Ecosystem Context
 
@@ -132,6 +140,11 @@ See [docs/PROTOCOLS.md](docs/PROTOCOLS.md) for the practical version of each pro
 | [Hapa Wiki Viewer](https://github.com/calderwong/hapa-wiki-viewer) | Browse the wiki as an app. | You need a local UI for the Markdown wiki instead of raw files. |
 | [Hapa Living Comic](https://github.com/calderwong/hapa-living-comic) | Story panel and narrative surface. | You need media-backed narrative panels, story presentation, or comic-style review. |
 | [Hapa Spaceship Desktop Hijack](https://github.com/calderwong/hapa-spaceship-desktop-hijack) | Janus/spaceship desktop surface. | You need desktop/world surface experiments tied to Janus and the operator shell. |
+| [Hapa Wisdom Studio](https://github.com/calderwong/hapa-wisdom-studio) | Card-guided writing and reversible revision workbench. | You need source-labeled story evidence and bounded Avatar Council/revision flows; Overwind publication is still planned. |
+| [Hapa Avatar Builder](https://github.com/calderwong/hapa-avatar-builder) | Avatar Card, Tarot Library/Draw, and media embodiment workbench. | You need Avatar/Tarot authoring from the canonical checkout, while accepting that it is not a stable release. |
+| [Hapa Roomlet](https://github.com/calderwong/hapa-roomlet) | Lightweight Avatar Builder Tarot-room participant client. | You need the working local prototype; distinct-network and signed-release proof remain pending. |
+| [Hapa Subscriber App](https://github.com/calderwong/hapa-subscriber-app) | Static subscriber-experience UI sketch. | You need a first-pass visual concept, not a service, Card connection, subscription contract, or commerce system. |
+| [Hapa Language](https://github.com/calderwong/hapa-language) | Local-first multilingual Meaning Cards learning world. | You need the verified Prototype 0.1 UI/API/CLI while preserving that its ten bundled Cards remain candidate/inference and are not accepted for teaching. |
 
 ### 3. Memory, source, and retrieval
 
@@ -141,6 +154,7 @@ See [docs/PROTOCOLS.md](docs/PROTOCOLS.md) for the practical version of each pro
 | [Hapa Lore Node](https://github.com/calderwong/hapa-lore-node) | Chronicle and canon search node. | You need daily progress, lore, wisdom, and searchable operator history. |
 | [Hapa Lance Node](https://github.com/calderwong/hapa-lance-node) | Projection and indexing layer. | You need chunks, embeddings, cards, wiki records, or multimodal index/projection work. |
 | [Hapa Wiki Growth Agent](https://github.com/calderwong/hapa-wiki-growth-agent) | Bounded wiki expansion workflow. | You need draft articles, lore dispatches, card drafts, media hooks, or ledgers generated from sources. |
+| [Hapa Second Brain Node](https://github.com/calderwong/hapa-second-brain-node) | Private memory, retrieval, turn mining, provenance, and capability discovery node. | You need the active local/private capability source package; its private corpus is not published. |
 
 ### 4. AI, models, media, and creative generation
 
@@ -154,6 +168,7 @@ See [docs/PROTOCOLS.md](docs/PROTOCOLS.md) for the practical version of each pro
 | [Hapa Avatar Node](https://github.com/calderwong/hapa-avatar-node) | Avatar/phamiliar generation node. | You need avatar lineage, profile metadata, or phamiliar variant generation. |
 | [Hapa Song Registry](https://github.com/calderwong/hapa-song-registry) | Music and song metadata registry. | You need songs, lyrics, timing, Suno/imported audio, or music memory metadata. |
 | [Hapa LuminaStem Station](https://github.com/calderwong/hapa-luminastem-station) | 3D/audio stem visualization prototype. | You need stem visualization, spatial audio experiments, or LuminaStem media surfaces. |
+| [Hapa Trellis](https://github.com/calderwong/hapa-trellis) | Hapa-owned image-to-3D queue, provenance, Asset Card, and adapter layer. | You need the Phase 0/1 integration around separately owned Trellis runtimes; stub parity is not model-quality proof. |
 
 ### 5. Agents, trust, cards, and protocol mechanics
 
@@ -165,6 +180,9 @@ See [docs/PROTOCOLS.md](docs/PROTOCOLS.md) for the practical version of each pro
 | [Hapa Janus World Node](https://github.com/calderwong/hapa-janus-world-node) | Local world truth kernel. | You need append-only world events, derived snapshots, or Janus simulation state. |
 | [Hapa Cultivation Suite](https://github.com/calderwong/hapa-cultivation-suite) | Pulse/cultivation protocol tooling. | You need protocol tooling around cultivation, pulse, and growth workflows. |
 | [Hapa Spec Scaffold](https://github.com/calderwong/hapa-spec-scaffold) | Compact protocol/spec/test scaffold. | You need a small starting point for Hapa protocol contracts and tests. |
+| [Hapa Overcard](https://github.com/calderwong/hapa-overcard) | Shared Hand, Deck, Placement, Formation, attachment, and bounded-responsibility capability. | You need the `0.1.1` private pre-release package/host boundary; consumer records and permissions remain with consumers. |
+| [Hapa Overwind](https://github.com/calderwong/hapa-overwind-node) | Acknowledged Card subscriber history and rebuildable serving projections. | You need the released Universal Card Plane v1 surface without assuming unrelated Overwind capabilities are stable. |
+| [Hapa Red Team](https://github.com/calderwong/hapa-red-team) | Authorized defensive observation, evidence, Findings, and repair memory. | You need the lovable local MVP; it is not an arbitrary remote attack surface. |
 
 ### 6. Tasks, archives, production records, and historical references
 
@@ -224,12 +242,14 @@ When in doubt, publish a pointer or manifest and keep the payload in the local v
 
 ## Current verified state
 
-- Public repository registry audit: 2026-07-17.
-- Public Hapa-related repositories registered: 40.
-- Registry repository URLs reachable: 40.
+- Public repository registry audit: 2026-07-18.
+- Public Hapa-related repositories registered: 50.
+- Registry repository URLs reachable: 50.
 - Broken repository URLs in the registry: 0.
 - Ten obsolete or non-public GitHub destinations were removed from the public registry; the reachable `hapa-dev-proto` repository replaced the obsolete `hapa-dev-proto-private` route.
 - Nine previously unregistered public surfaces were added, including Hapa Awesome, .hapaCatalog, Graphify, Node Atlas, Scroll Site, CardAppPrototype, and the explicitly labeled experiment/archive repositories.
+- Nine focused capability repositories were added in this pass: Wisdom Studio, Avatar Builder, Overcard, Second Brain Node, Overwind, Red Team, Roomlet, Subscriber App, and Trellis.
+- Hapa Language, published in the preceding repository-preparation pass, was added when the public-API audit identified it as the remaining catalog gap.
 
 Re-run the deterministic audit whenever a public Hapa repository is added, removed, renamed, or made private:
 
