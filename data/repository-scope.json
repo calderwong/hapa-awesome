@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "hapa.public-repository-scope.v1",
+  "auditedAt": "2026-07-18",
+  "account": "calderwong",
+  "counts": {
+    "publicAccountRepositories": 61,
+    "publicHapaRepositories": 50,
+    "publicSupportingRepositories": 2,
+    "otherPublicAccountRepositories": 9
+  },
+  "publicHapaRegistry": "nodes.json",
+  "publicSupportingRepositories": [
+    {
+      "repo": "calderwong/wikidict-it",
+      "url": "https://github.com/calderwong/wikidict-it",
+      "fork": true,
+      "classification": "supporting-source-not-hapa-node",
+      "relationship": "Pinned declared fork used by Hapa Language as an immutable historical WikiDict seed.",
+      "limits": "Interwiki-title data is not a dictionary sense, translation-equivalence, currency, community-acceptance, or teaching-quality claim."
+    },
+    {
+      "repo": "calderwong/wikidict-zh",
+      "url": "https://github.com/calderwong/wikidict-zh",
+      "fork": true,
+      "classification": "supporting-source-not-hapa-node",
+      "relationship": "Pinned declared fork used by Hapa Language as an immutable historical WikiDict seed.",
+      "limits": "Interwiki-title data is not a dictionary sense, translation-equivalence, currency, community-acceptance, or teaching-quality claim."
+    }
+  ],
+  "otherPublicAccountRepositories": [
+    {
+      "repo": "calderwong/FramePackherHimthorMethu",
+      "url": "https://github.com/calderwong/FramePackherHimthorMethu",
+      "fork": true,
+      "classification": "not-asserted-as-hapa",
+      "reason": "No current Hapa registry or owning-document declaration establishes this public fork as a Hapa node."
+    },
+    {
+      "repo": "calderwong/OpenManus",
+      "url": "https://github.com/calderwong/OpenManus",
+      "fork": true,
+      "classification": "not-asserted-as-hapa",
+      "reason": "No current Hapa registry or owning-document declaration establishes this public fork as a Hapa node."
+    },
+    {
+      "repo": "calderwong/cake",
+      "url": "https://github.com/calderwong/cake",
+      "fork": true,
+      "classification": "not-asserted-as-hapa",
+      "reason": "No current Hapa registry or owning-document declaration establishes this public fork as a Hapa node."
+    },
+    {
+      "repo": "calderwong/databy-ai-backend",
+      "url": "https://github.com/calderwong/databy-ai-backend",
+      "fork": false,
+      "classification": "not-asserted-as-hapa",
+      "reason": "Public account project without a current Hapa registry or owning-document declaration that it belongs to the Hapa ecosystem."
+    },
+    {
+      "repo": "calderwong/echomimic_v3",
+      "url": "https://github.com/calderwong/echomimic_v3",
+      "fork": true,
+      "classification": "not-asserted-as-hapa",
+      "reason": "No current Hapa registry or owning-document declaration establishes this public fork as a Hapa node."
+    },
+    {
+      "repo": "calderwong/ideology-visualizer",
+      "url": "https://github.com/calderwong/ideology-visualizer",
+      "fork": false,
+      "classification": "not-asserted-as-hapa",
+      "reason": "Public account prototype without a current Hapa registry or owning-document declaration that it belongs to the Hapa ecosystem."
+    },
+    {
+      "repo": "calderwong/shard",
+      "url": "https://github.com/calderwong/shard",
+      "fork": true,
+      "classification": "not-asserted-as-hapa",
+      "reason": "No current Hapa registry or owning-document declaration establishes this public fork as a Hapa node."
+    },
+    {
+      "repo": "calderwong/try_git",
+      "url": "https://github.com/calderwong/try_git",
+      "fork": false,
+      "classification": "not-asserted-as-hapa",
+      "reason": "Public account repository with no Hapa registry declaration or documented Hapa capability relationship."
+    },
+    {
+      "repo": "calderwong/wikidict-eo",
+      "url": "https://github.com/calderwong/wikidict-eo",
+      "fork": true,
+      "classification": "not-asserted-as-hapa",
+      "reason": "The current Hapa Language source review pins the Italian and Chinese Calder forks, not this Esperanto fork."
+    }
+  ]
+}
