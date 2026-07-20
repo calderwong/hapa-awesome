@@ -17,7 +17,8 @@ SCOPE_PATH = ROOT / "data" / "repository-scope.json"
 CATALOG_PATH = ROOT / "docs" / "NODES.md"
 SCOPE_DOC_PATH = ROOT / "docs" / "REPOSITORY_SCOPE.md"
 README_PATH = ROOT / "README.md"
-GITHUB_API = "https://api.github.com/users/calderwong/repos?per_page=100&sort=full_name&type=public"
+GITHUB_API = "https://api.github.com/users/calderwong/repos?sort=full_name&type=public"
+GITHUB_PAGE_SIZE = 100
 LIVE_DEMOS = {
     "hapa-node-atlas": "https://calderwong.github.io/hapa-node-atlas/",
     "hapa-scroll-site": "https://calderwong.github.io/hapa-scroll-site/",
@@ -34,7 +35,14 @@ def fetch_json(url: str):
 
 
 def public_account_repos() -> dict[str, dict]:
-    repos = fetch_json(GITHUB_API)
+    repos: list[dict] = []
+    page = 1
+    while True:
+        page_repos = fetch_json(f"{GITHUB_API}&per_page={GITHUB_PAGE_SIZE}&page={page}")
+        repos.extend(page_repos)
+        if len(page_repos) < GITHUB_PAGE_SIZE:
+            break
+        page += 1
     return {repo["name"]: repo for repo in repos}
 
 
