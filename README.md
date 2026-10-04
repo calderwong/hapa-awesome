@@ -4,7 +4,7 @@ Hapa is a local-first AI, worldbuilding, media, memory, and agent ecosystem. It 
 
 This repository is the intended first GitHub entry point for Hapa. Start here when you want to understand the full scope of the nodes and systems, the protocol that holds them together, how the nodes relate, and how to use them safely.
 
-Status: public-directory audit completed 2026-07-18. The machine-readable registry contains 50 public, directly reachable Hapa repositories and no dead repository links. The companion [repository-scope ledger](data/repository-scope.json) accounts for all 61 public repositories on the `calderwong` account: 50 Hapa repositories, 2 supporting WikiDict forks pinned by Hapa Language, and 9 other public account repositories that are not currently asserted to be Hapa nodes. Local-only and private Hapa systems may still be named for context, but they are not presented as public GitHub destinations.
+Status: public-directory audit completed 2026-10-04. The machine-readable registry contains 51 public, directly reachable Hapa repositories and no dead repository links. The companion [repository-scope ledger](data/repository-scope.json) accounts for all 63 public repositories on the `calderwong` account: 51 Hapa repositories, 2 supporting WikiDict forks pinned by Hapa Language, and 10 other public account repositories that are not currently asserted to be Hapa nodes. Local-only and private Hapa systems may still be named for context, but they are not presented as public GitHub destinations.
 
 ## Current stage and artist-kit model
 
@@ -48,6 +48,7 @@ Core entry points:
 
 - [Hapa](https://github.com/calderwong/hapa) - front-door app/repo for the Hapa workspace and node map.
 - [Hapa Awesome](https://github.com/calderwong/hapa-awesome) - canonical public repository directory and first-entry guide.
+- [Hapa Living Resume](https://github.com/calderwong/hapa-living-resume) - public prototype portfolio, evidence-linked professional profile, and Hapa ecosystem discovery surface.
 - [Hapa Worldbuilding Wiki](https://github.com/calderwong/hapa-worldbuilding-wiki) - canon, node notes, systems, names, cards, and vault boundary.
 - [Overwatch](https://github.com/calderwong/overwatch) - operations spine: inventory, source index, task inbox, runbooks, and protocols.
 - [Hapa Node Atlas](https://calderwong.github.io/hapa-node-atlas/) - live public visual atlas and embedded app-surface brochure ([source](https://github.com/calderwong/hapa-node-atlas)).
@@ -119,6 +120,7 @@ See [docs/PROTOCOLS.md](docs/PROTOCOLS.md) for the practical version of each pro
 | --- | --- | --- |
 | [hapa](https://github.com/calderwong/hapa) | Front-door app and high-level repo map. | You need the main orientation, node map, feature parity, or Node Space context. |
 | [Hapa Awesome](https://github.com/calderwong/hapa-awesome) | Canonical public repository directory. | You need a complete, machine-readable route to every currently public Hapa repository. |
+| [Hapa Living Resume](https://github.com/calderwong/hapa-living-resume) | Public prototype portfolio and evidence-linked discovery surface. | You want professional context, a Hapa ecosystem timeline, and agent-readable evidence with explicit privacy and claim boundaries. |
 | [Hapa Worldbuilding Wiki](https://github.com/calderwong/hapa-worldbuilding-wiki) | Canon and node knowledge graph. | You need lore, systems, names, cards, node notes, or publication boundary docs. |
 | [Overwatch](https://github.com/calderwong/overwatch) | Operations spine and source index. | You need task protocols, source inventory, runbooks, or cross-node evidence. |
 | [Hapa Quest Keeper](https://github.com/calderwong/hapa-quest-keeper) | Consolidated quest board. | You need a live overview of Hapa app/node boards and coverage status. |
@@ -243,16 +245,24 @@ When in doubt, publish a pointer or manifest and keep the payload in the local v
 
 ## Current verified state
 
-- Public repository registry audit: 2026-07-18.
-- Public Hapa-related repositories registered: 50.
-- Registry repository URLs reachable: 50.
+- Public repository registry audit: 2026-10-04.
+- Public Hapa-related repositories registered: 51.
+- Registry repository URLs reachable: 51.
 - Broken repository URLs in the registry: 0.
+- Public account coverage: 63 repositories classified exactly once (51 Hapa, 2 supporting, 10 other).
+- Hapa Living Resume is now included as a public prototype; the WUTW upstream fork is classified as not asserted as Hapa pending an owning capability declaration. See the [source-backed classification refresh](docs/REPOSITORY_SCOPE.md#classification-refresh-2026-10-04).
+
+Historical repository preparation in July 2026:
+
 - Ten obsolete or non-public GitHub destinations were removed from the public registry; the reachable `hapa-dev-proto` repository replaced the obsolete `hapa-dev-proto-private` route.
 - Nine previously unregistered public surfaces were added, including Hapa Awesome, .hapaCatalog, Graphify, Node Atlas, Scroll Site, CardAppPrototype, and the explicitly labeled experiment/archive repositories.
 - Nine focused capability repositories were added in this pass: Wisdom Studio, Avatar Builder, Overcard, Second Brain Node, Overwind, Red Team, Roomlet, Subscriber App, and Trellis.
 - Hapa Language, published in the preceding repository-preparation pass, was added when the public-API audit identified it as the remaining catalog gap.
 
-Re-run the deterministic audit whenever a public Hapa repository is added, removed, renamed, or made private:
+Re-run the audit whenever a public Hapa repository is added, removed, renamed, or made private.
+It enumerates the full public account without an item cap, and reports incomplete
+coverage explicitly. See the [audit completeness contract](docs/REPOSITORY_SCOPE.md#audit-completeness-contract)
+and [human/agent visibility protocol](docs/PROTOCOLS.md#11-complete-enumeration-and-audit-visibility-protocol):
 
 ```bash
 python3 scripts/audit_public_registry.py

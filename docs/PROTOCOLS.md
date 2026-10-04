@@ -152,3 +152,33 @@ A good Hapa handoff says:
 - Next logical action.
 
 The handoff should let a new human or agent resume without reconstructing the whole thread.
+
+## 11. Complete enumeration and audit visibility protocol
+
+Humans and agents must be able to distinguish a complete inventory from a sample,
+failed request, or partial traversal. Apply this to repository audits, searches,
+registries, task lists, and other paginated sources:
+
+- Declare the source, access boundary, filters, and observation time. “All public
+  repositories on this account” does not include private, local-only, or otherwise
+  inaccessible material.
+- Treat page sizes and transport batches as implementation details, never total
+  result limits. Traverse to the source's end condition; do not silently stop at
+  100 items, a fixed number of pages, a top-N result, or a time/token budget.
+- Validate responses and identities before counting. Detect repeated pages and
+  duplicate identities instead of silently overwriting them. Reconcile an
+  independent source count where available, and disclose non-atomic source reads.
+- A rate limit, malformed response, network error, permission boundary, interrupted
+  run, or necessary operational budget must produce an explicit incomplete/blocked
+  result. Report observed coverage and the failure/continuation point. Never report
+  the partial count as a total, claim a clean audit, or infer that unseen items do
+  not exist. Resume or rerun once the blocker is resolved.
+- Sampling must be explicitly requested and labeled with scope and omissions. A
+  sampled check is not a substitute for a completeness audit.
+- Keep regression cases for zero, below-boundary, exact-boundary, and multiple-page
+  inventories, later-page failures, malformed responses, duplicates, and truncation.
+- Handoffs must include what was fully checked, what remains unknown, evidence,
+  and the next action. A concise summary must not conceal incomplete source coverage.
+
+For this repository's implementation and incident history, see
+[the public repository audit contract](REPOSITORY_SCOPE.md#audit-completeness-contract).

@@ -1,17 +1,18 @@
 {
   "schemaVersion": "hapa.awesome.nodes.v0.2",
   "generatedFor": "hapa-awesome",
-  "auditedAt": "2026-07-18",
+  "auditedAt": "2026-10-04",
   "scope": "Public, reachable repositories in the Calder Wong GitHub account that are Hapa entry points, nodes, apps, registries, operator surfaces, or clearly labeled experiments.",
   "publicationStatus": {
-    "publishedRepos": 50,
-    "reachableRepos": 50,
+    "publishedRepos": 51,
+    "reachableRepos": 51,
     "brokenRepositoryLinks": 0,
     "source": "GitHub public-repository API plus direct HTTP reachability audit"
   },
   "nodes": [
     {"name":"hapa","repo":"calderwong/hapa","url":"https://github.com/calderwong/hapa","family":"front-door","role":"Front-door app and repo map for Hapa."},
     {"name":"hapa-awesome","repo":"calderwong/hapa-awesome","url":"https://github.com/calderwong/hapa-awesome","family":"front-door","role":"Canonical public repository directory and first-entry guide for the Hapa ecosystem."},
+    {"name":"hapa-living-resume","repo":"calderwong/hapa-living-resume","url":"https://github.com/calderwong/hapa-living-resume","family":"front-door","role":"Public portfolio and evidence-linked professional profile with Hapa ecosystem and agent-readable discovery surfaces.","status":"Public prototype; public-safe evidence projection, not a claim of production usage or automatic inference of a person's experience."},
     {"name":"hapa-node-atlas","repo":"calderwong/hapa-node-atlas","url":"https://github.com/calderwong/hapa-node-atlas","demoUrl":"https://calderwong.github.io/hapa-node-atlas/","family":"front-door","role":"Public visual atlas and GitHub Pages brochure for Hapa nodes and app surfaces."},
     {"name":"hapa-graphify","repo":"calderwong/hapa-graphify","url":"https://github.com/calderwong/hapa-graphify","family":"front-door","role":"Local-first graph compiler and explorer for Hapa sources, nodes, protocols, boards, and memory systems."},
     {"name":"hapa-scroll-site","repo":"calderwong/hapa-scroll-site","url":"https://github.com/calderwong/hapa-scroll-site","demoUrl":"https://calderwong.github.io/hapa-scroll-site/","family":"front-door","role":"Scroll-driven public ecosystem brochure with cinematic transitions and explorable Hapa Cards."},
