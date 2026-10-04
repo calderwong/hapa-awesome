@@ -1,12 +1,12 @@
 {
   "schemaVersion": "hapa.public-repository-scope.v1",
-  "auditedAt": "2026-07-18",
+  "auditedAt": "2026-10-04",
   "account": "calderwong",
   "counts": {
-    "publicAccountRepositories": 61,
-    "publicHapaRepositories": 50,
+    "publicAccountRepositories": 63,
+    "publicHapaRepositories": 51,
     "publicSupportingRepositories": 2,
-    "otherPublicAccountRepositories": 9
+    "otherPublicAccountRepositories": 10
   },
   "publicHapaRegistry": "nodes.json",
   "publicSupportingRepositories": [
@@ -90,6 +90,13 @@
       "fork": true,
       "classification": "not-asserted-as-hapa",
       "reason": "The current Hapa Language source review pins the Italian and Chinese Calder forks, not this Esperanto fork."
+    },
+    {
+      "repo": "calderwong/wutw-public-hapa-proto",
+      "url": "https://github.com/calderwong/wutw-public-hapa-proto",
+      "fork": true,
+      "classification": "not-asserted-as-hapa",
+      "reason": "Public fork of max99x/wutw-public. The owning README at 97f9d5ec2a5b984ff1705d8bbb164566918edeaf describes the upstream Worlds Upon The Wind game without establishing a Hapa capability relationship; not asserted as a Hapa node pending an owning declaration."
     }
   ]
 }

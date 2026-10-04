@@ -1,11 +1,11 @@
 # Hapa Node Catalog
 
-This catalog lists the 50 public Hapa GitHub repositories verified on 2026-07-18. Every linked repository returned a public HTTP 200 response during the audit. The canonical machine-readable form is [`data/nodes.json`](../data/nodes.json). The [repository-scope ledger](REPOSITORY_SCOPE.md) separately accounts for supporting inputs and other public account repositories so they are not silently omitted or mislabeled as Hapa nodes. Treat every Hapa entry as First Pass / Prototype Stage unless its owning README declares a narrower, evidence-backed state; public visibility is discovery, not a stability, partnership, endorsement, or license claim.
+This catalog lists the 51 public Hapa GitHub repositories verified on 2026-10-04. Every linked repository returned a public HTTP 200 response during the audit. The canonical machine-readable form is [`data/nodes.json`](../data/nodes.json). The [repository-scope ledger](REPOSITORY_SCOPE.md) separately accounts for supporting inputs and other public account repositories so they are not silently omitted or mislabeled as Hapa nodes. Treat every Hapa entry as First Pass / Prototype Stage unless its owning README declares a narrower, evidence-backed state; public visibility is discovery, not a stability, partnership, endorsement, or license claim.
 
 ## Live public entry points
 
 - [Hapa Scroll Site](https://calderwong.github.io/hapa-scroll-site/) — cinematic, scroll-driven ecosystem and Card tour.
-- [Hapa Node Atlas](https://calderwong.github.io/hapa-node-atlas/) — visual atlas with embedded prototype surfaces and the complete 50-repository source route.
+- [Hapa Node Atlas](https://calderwong.github.io/hapa-node-atlas/) — visual atlas with embedded prototype surfaces and repository source routes.
 - [Hapa front door](https://github.com/calderwong/hapa) — architecture, operating model, local Node Map, and participation guidance.
 - [Hapa Awesome](https://github.com/calderwong/hapa-awesome) — this canonical public source directory.
 
@@ -15,6 +15,7 @@ This catalog lists the 50 public Hapa GitHub repositories verified on 2026-07-18
 | --- | --- | --- | --- |
 | Hapa | [calderwong/hapa](https://github.com/calderwong/hapa) | Front-door app/repo map, Node Space, high-level flow, and orientation docs. | README contract, node ownership, link hygiene. |
 | Hapa Awesome | [calderwong/hapa-awesome](https://github.com/calderwong/hapa-awesome) | Canonical public repository registry and first-entry guide. | Public discovery, link hygiene, repository traversal. |
+| Hapa Living Resume | [calderwong/hapa-living-resume](https://github.com/calderwong/hapa-living-resume) | Public prototype portfolio, evidence-linked professional profile, Hapa ecosystem timeline, and agent-readable discovery; a public-safe projection, not a claim of production usage or automatic inference of experience. | Evidence boundaries, public discovery, privacy; [classification source](REPOSITORY_SCOPE.md#classification-refresh-2026-10-04). |
 | Hapa Node Atlas | [calderwong/hapa-node-atlas](https://github.com/calderwong/hapa-node-atlas) ([live demo](https://calderwong.github.io/hapa-node-atlas/)) | Public visual atlas, app-surface embeds, and GitHub Pages brochure. | Public discovery, visual orientation. |
 | Hapa Graphify | [calderwong/hapa-graphify](https://github.com/calderwong/hapa-graphify) | Graph compiler and explorer across nodes, repositories, protocols, boards, and memory sources. | Provenance, bounded exploration, source ownership. |
 | Hapa Scroll Site | [calderwong/hapa-scroll-site](https://github.com/calderwong/hapa-scroll-site) ([live demo](https://calderwong.github.io/hapa-scroll-site/)) | Scroll-driven cinematic ecosystem brochure with explorable Hapa Cards. | Public discovery, media provenance. |

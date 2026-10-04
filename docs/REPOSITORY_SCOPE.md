@@ -1,15 +1,15 @@
 # Public Repository Scope
 
-This ledger explains what “complete” means for Hapa's public GitHub directory as of 2026-07-18. It prevents two opposite errors: silently missing a public Hapa repository, and claiming that every repository on Calder Wong's public account is a Hapa node.
+This ledger explains what “complete” means for Hapa's public GitHub directory as of 2026-10-04. It prevents two opposite errors: silently missing a public Hapa repository, and claiming that every repository on Calder Wong's public account is a Hapa node.
 
 ## Account-wide audit
 
 | Classification | Count | Meaning |
 | --- | ---: | --- |
-| Public Hapa repositories | 50 | Directly reachable Hapa apps, nodes, protocols, operations surfaces, and labeled experiments in [`data/nodes.json`](../data/nodes.json). |
+| Public Hapa repositories | 51 | Directly reachable Hapa apps, nodes, protocols, operations surfaces, and labeled experiments in [`data/nodes.json`](../data/nodes.json). |
 | Public supporting repositories | 2 | Source inputs used by Hapa, but not owned or described as Hapa nodes. |
-| Other public account repositories | 9 | Public account projects or forks without current evidence that they belong in the Hapa node registry. |
-| Total public account repositories | 61 | Every public repository returned by GitHub for `calderwong` is classified exactly once. |
+| Other public account repositories | 10 | Public account projects or forks without current evidence that they belong in the Hapa node registry. |
+| Total public account repositories | 63 | Every public repository returned by GitHub for `calderwong` is classified exactly once. |
 
 The machine-readable boundary is [`data/repository-scope.json`](../data/repository-scope.json). `scripts/audit_public_registry.py` compares its union with GitHub's public-repository API, so a new public repository cannot remain silently unclassified.
 
@@ -33,8 +33,18 @@ The following repositories are deliberately outside the Hapa node registry until
 - `shard`
 - `try_git`
 - `wikidict-eo` — not one of the Calder forks pinned by the current Hapa Language source review.
+- [wutw-public-hapa-proto](https://github.com/calderwong/wutw-public-hapa-proto) — fork of [max99x/wutw-public](https://github.com/max99x/wutw-public); the reviewed owning README describes the upstream game without establishing a Hapa capability relationship.
 
 Exclusion is not a quality judgment and does not prevent a future integration. It means only that public account ownership, a fork, or thematic similarity is insufficient evidence to call something a Hapa node.
+
+## Classification refresh: 2026-10-04
+
+The complete live inventory found two repositories added after the July ledger:
+
+- **Hapa Living Resume** is included in the Hapa registry as a public prototype discovery surface. Its [owning README at `fabf8463`](https://github.com/calderwong/hapa-living-resume/blob/fabf84631f4461a931df94e5837f80fda6b45030/README.md) describes a living résumé, portfolio, Hapa ecosystem timeline, evidence boundaries, and agent-readable discovery. Its public-safe projection does not establish production usage or automatic inference of a person's experience.
+- **wutw-public-hapa-proto** remains outside the Hapa registry as `not-asserted-as-hapa`. GitHub identifies it as a fork of [max99x/wutw-public](https://github.com/max99x/wutw-public), and its [owning README at `97f9d5ec`](https://github.com/calderwong/wutw-public-hapa-proto/blob/97f9d5ec2a5b984ff1705d8bbb164566918edeaf/README.md) describes the upstream Worlds Upon The Wind game. The reviewed README does not establish a Hapa capability relationship; the repository name alone is insufficient. This classification leaves future Hapa integration unresolved and does not transfer upstream release, runtime, or license claims to a Hapa implementation. Revisit it when an owning document establishes that relationship and its boundaries.
+
+This refresh changes the historical 61-repository ledger (50 Hapa, 2 supporting, 9 other) to 63 repositories (51 Hapa, 2 supporting, 10 other). Public visibility and HTTP reachability establish discovery only.
 
 ## Stage and participation boundary
 
@@ -74,8 +84,8 @@ some concurrent mutations, but equal-count replacements can evade these checks.
 For strong point-in-time claims, rerun against a stable account and retain the
 report/commit evidence. This audit makes no claim about private or local-only
 repositories, inaccessible sources, runtime health, or the completeness of other
-nodes' internal data. The dated 61-repository ledger above is historical; a new run
-may correctly flag newly added or removed repositories for classification.
+nodes' internal data. The dated ledger above is an observation, not a permanent
+account total; a new run may correctly flag added or removed repositories for classification.
 
 The `Registry regression tests` GitHub Actions workflow runs offline regression
 tests, JSON validation, and compilation for every pull request and push to `main`.
