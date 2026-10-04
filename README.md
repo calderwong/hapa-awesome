@@ -252,7 +252,10 @@ When in doubt, publish a pointer or manifest and keep the payload in the local v
 - Nine focused capability repositories were added in this pass: Wisdom Studio, Avatar Builder, Overcard, Second Brain Node, Overwind, Red Team, Roomlet, Subscriber App, and Trellis.
 - Hapa Language, published in the preceding repository-preparation pass, was added when the public-API audit identified it as the remaining catalog gap.
 
-Re-run the deterministic audit whenever a public Hapa repository is added, removed, renamed, or made private:
+Re-run the audit whenever a public Hapa repository is added, removed, renamed, or made private.
+It enumerates the full public account without an item cap, and reports incomplete
+coverage explicitly. See the [audit completeness contract](docs/REPOSITORY_SCOPE.md#audit-completeness-contract)
+and [human/agent visibility protocol](docs/PROTOCOLS.md#11-complete-enumeration-and-audit-visibility-protocol):
 
 ```bash
 python3 scripts/audit_public_registry.py

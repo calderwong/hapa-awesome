@@ -28,10 +28,14 @@
 - Add or remove public Hapa repositories in `data/nodes.json`, `docs/NODES.md`, and `README.md` where family orientation changes. Classify every other public account repository in `data/repository-scope.json` and explain the boundary in `docs/REPOSITORY_SCOPE.md`.
 - Keep repository names, URLs, roles, statuses, upstream attribution, and ownership boundaries aligned with the owning README.
 - Do not list private/local-only locations as public GitHub destinations.
+- Follow [complete enumeration and audit visibility](docs/PROTOCOLS.md#11-complete-enumeration-and-audit-visibility-protocol): never replace full traversal with an arbitrary item/page cap; report incomplete coverage explicitly.
 - Validate JSON, inspect the diff, and run:
 
 ```bash
 jq empty data/nodes.json
 jq empty data/repository-scope.json
+python3 -m unittest discover -s tests -v
+python3 -m py_compile scripts/audit_public_registry.py tests/test_audit_public_registry.py
 python3 scripts/audit_public_registry.py
+git diff --check
 ```
